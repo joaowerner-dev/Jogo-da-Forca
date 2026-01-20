@@ -40,7 +40,7 @@ O jogo se adapta automaticamente a diferentes tamanhos de tela, garantindo boa e
 
 ## ✨ Objetivo do projeto
 
-Projeto desenvolvido para fins educacionais, com foco em aprendizado e prática de desenvolvimento front-end.
+Projeto desenvolvido para fins educacionais, com foco em aprendizado e prática de desenvolvimento.
 
 ---
 
