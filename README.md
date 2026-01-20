@@ -1,7 +1,7 @@
 # 🎯 Jogo da Forca
 
 Este é um jogo da forca simples e funcional, desenvolvido com **HTML, CSS e JavaScript**.  
-O projeto foi criado para treinar lógica de programação, manipulação do DOM e boas práticas básicas de front-end.
+O projeto foi criado para treinar lógica de programação,
 
 ---
 ## 🚀 Funcionalidades
