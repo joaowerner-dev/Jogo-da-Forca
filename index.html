@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Jogo da Forca</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>🎯 Jogo da Forca</h1>
+
+  <div class="top">
+    <div class="badge" id="nivel">FÁCIL</div>
+    <div class="badge" id="vidas">❤️ 6</div>
+    <div class="badge" id="score">⭐ 0</div>
+  </div>
+
+  <div class="forca">
+    <svg viewBox="0 0 200 250">
+      <line x1="20" y1="230" x2="180" y2="230" />
+      <line x1="60" y1="230" x2="60" y2="20" />
+      <line x1="60" y1="20" x2="140" y2="20" />
+      <line x1="140" y1="20" x2="140" y2="50" />
+      <circle cx="140" cy="70" r="20" class="parte hidden" />
+      <line x1="140" y1="90" x2="140" y2="150" class="parte hidden" />
+      <line x1="140" y1="110" x2="110" y2="130" class="parte hidden" />
+      <line x1="140" y1="110" x2="170" y2="130" class="parte hidden" />
+      <line x1="140" y1="150" x2="120" y2="190" class="parte hidden" />
+      <line x1="140" y1="150" x2="160" y2="190" class="parte hidden" />
+    </svg>
+  </div>
+
+  <div class="palavra" id="palavra"></div>
+
+  <div class="dica" id="dica">💡 Dica oculta</div>
+
+  <div class="acoes">
+    <button id="btnDica">Dica</button>
+    <button class="primary" id="btnReset">Reiniciar</button>
+  </div>
+
+  <div class="teclado" id="teclado"></div>
+
+  <div class="status" id="status"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
