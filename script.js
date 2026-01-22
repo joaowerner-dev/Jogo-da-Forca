@@ -32,13 +32,20 @@ const scoreEl = document.getElementById('score');
 function iniciar() {
   const lista = fases[nivel];
 
+  // Verifica se acabou o nível
   if (indice >= lista.length) {
     if (nivel === 'facil') nivel = 'medio';
     else if (nivel === 'medio') nivel = 'dificil';
     else {
-      status.textContent = '🏆 VOCÊ É O MELHOR';
+      // Jogo finalizado
+      status.textContent = '🏆 PARABÉNS, JOGO FINALIZADO';
       status.className = 'status win';
-      return;
+      palavraEl.innerHTML = '';
+      teclado.innerHTML = '';
+      dicaEl.textContent = '';
+      vidasEl.textContent = '';
+      nivelEl.textContent = '';
+      return; // para o jogo
     }
     indice = 0;
   }
@@ -85,7 +92,7 @@ function jogar(letra, btn) {
   });
 
   if (!acertou) {
-    partes[erros].classList.remove('hidden');
+    if (erros < max) partes[erros].classList.remove('hidden');
     erros++;
   }
 
