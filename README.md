@@ -33,7 +33,7 @@ O jogo se adapta automaticamente a diferentes tamanhos de tela, garantindo boa e
 2. Abra a pasta do projeto
 3. Clique duas vezes no arquivo `Index.html`
 4. O jogo abrirá no navegador
-
+https://joaowerner-dev.github.io/Jogo-da-Forca/
 ---
 
 ---
